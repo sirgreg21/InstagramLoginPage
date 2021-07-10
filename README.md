@@ -1,2 +1,3 @@
 # InstagramLoginPage
-Página de login do Instragram 
+Clone da página de login do Instragram.
+Posteriormente pretendo implementar mais este projeto.

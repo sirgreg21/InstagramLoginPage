@@ -1,0 +1,187 @@
+/* ===== RESET ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+/*
+background-color: rgb(243, 243, 243);
+
+*/
+
+/* aqui começou a cagar tudo */
+/*
+.phone {
+  border: 1rem solid yellow;
+}
+.account {
+  border: 1rem solid black;
+}
+
+.account .enter {
+  border: 1rem solid blue;
+}
+
+.account .download-app {
+  border: 1rem solid green;
+}
+
+*/
+
+/* === Tentando ajustar === */
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(243, 243, 243);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 60%;
+  height: 100vh;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.phone img {
+  height: 50rem;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 50%;
+
+  min-height: 34rem;
+}
+
+.enter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  width: 350px;
+  padding: 1.3rem 0;
+  padding-bottom: 2rem;
+  border: 1px solid lightgray;
+}
+
+.enter:nth-child(1) {
+  min-height: 24rem;
+}
+
+.logo-instagram {
+  height: 3rem;
+}
+
+.dados {
+  width: 265px;
+  height: 30px;
+  /*margin-bottom: 0.5rem;*/
+}
+
+.dados .text {
+  color: gray;
+  border: 0.1rem solid rgb(175, 173, 173);
+  padding: 0.5rem 0;
+  padding-left: 8px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 0.2rem;
+}
+
+.enter .dados .text {
+  margin-left: 0pc;
+  text-align: left;
+}
+
+.button {
+  background-color: #0095f6;
+  color: white;
+  width: 265px;
+  height: 30px;
+  padding: 0.5rem 8rem;
+  border-radius: 4px;
+  /*margin-top: 0.5rem;*/
+}
+
+.enter-alt {
+  width: 350px;
+  text-align: center;
+  margin-top: 1.2rem;
+}
+
+.enter-alt a {
+  color: blue;
+}
+
+.criar-conta {
+  margin-top: 1rem;
+}
+
+.criar-conta a {
+  color: #0095f6;
+}
+.account .enter {
+  margin-top: 0.5rem;
+}
+
+/* baixar app */
+
+.account .download-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1.3rem auto;
+}
+
+.account .get-app {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.account .download {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.account .download img {
+  width: 125px;
+  height: 36px;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}
+
+/* ===== Media Queries =====*/
+
+@media (max-width: 1200px) {
+  .phone {
+    display: none;
+  }
+
+  .account {
+    width: 100%;
+  }
+}
